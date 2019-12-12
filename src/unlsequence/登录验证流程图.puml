@@ -1,0 +1,6 @@
+@startuml
+前端 -> Passport: 调用接口passportsvc/api/pb/v1/password_login
+Passport --> 前端: 返回token，以及sessionid
+
+
+@enduml
